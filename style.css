@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+  height: 100vh;
+  width: 100vw;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid green;
+    height: 100vh;
+}
+.col{
+    height: 100vh;
+    flex:50%;
+    border: 1rem   solid green;
+    overflow: auto;
+}
+#table {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-size: 0.6rem;
+    text-align: center;
+  }
+  #table tr:nth-child(even){
+    background-color: #f2f2f2;
+  }
+    #table tr:hover {
+    background-color: #ddd;
+  }
+  #table{
+   padding: 0 1rem;
+  }
+   #table th {
+    background-color: #04AA6D;
+    color: white;
+    border: 2px solid green;
+    padding: 5px 5px;
+  }
+  #table  td{
+    padding: 1px 5px;
+    border: 2px solid green;
+  }
+  /* form css start here */
+  input[type=text],input[type=email] {
+  margin-left: 2rem;
+  border: 1px solid ;
+}
+input[type=password]{
+    margin-left:0.45rem;
+}
+#editid{
+    margin-left: 3.4rem;
+}
+label {
+  padding: 8px 8px 8px 0;
+  display: inline-block;
+} 
+
+input[type=submit],#editSubmit {
+  background-color: #04AA6D;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#deletebutton{
+  background-color: red;
+  color: white;
+  padding: 7px 9px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+#formdiv{
+  
+  box-sizing: border-box; 
+  /* height: 100vh; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;  
+}
+#excel #file  {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+#export{
+  box-sizing: border-box;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  display:inline-block ;
+  width: 80px;
+  height: 30px;
+  background: #4E9CAF;
+  padding: 2px;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 25px;
+}
+.tablediv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.tablediv form{
+  width: 100%;
+  text-align: center;
+ 
+}
+
+
